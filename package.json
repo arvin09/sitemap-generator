@@ -1,0 +1,24 @@
+{
+  "name": "sitemap-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sitemap": "node ./src/index.js",
+    "sitemap-react": "babel-node ./src/sitemap-generator.js",
+    "predeploy": "npm run sitemap-react"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-router-sitemap": "^1.2.0",
+    "sitemap-generator": "^8.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
