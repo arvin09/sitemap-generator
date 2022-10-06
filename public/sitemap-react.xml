@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://www.example.com/</loc> </url>
-<url> <loc>https://www.example.com/</loc> </url>
-<url> <loc>https://www.example.com/page/0001</loc> </url>
-<url> <loc>https://www.example.com/page/0002</loc> </url>
-<url> <loc>https://www.example.com/page/0003</loc> </url>
-<url> <loc>https://www.example.com/page/0004</loc> </url>
-<url> <loc>https://www.example.com/page/0005</loc> </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<sitemap>
+<loc>https://localhost:3000/sitemap-react-0.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://localhost:3000/sitemap-react-1.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://localhost:3000/sitemap-react-2.xml</loc>
+</sitemap>
+<sitemap>
+<loc>https://localhost:3000/sitemap-react-3.xml</loc>
+</sitemap>
+</sitemapindex>

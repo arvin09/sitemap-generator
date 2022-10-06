@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "module": "ES",
   "scripts": {
     "sitemap": "node ./src/index.js",
     "sitemap-react": "babel-node ./src/sitemap-generator.js",
     "predeploy": "npm run sitemap-react"
   },
   "keywords": [],
-  "author": "",
+  "author": "Arvin Waghmare",
   "license": "ISC",
   "dependencies": {
     "react-router-sitemap": "^1.2.0",
