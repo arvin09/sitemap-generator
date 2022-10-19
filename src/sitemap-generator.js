@@ -1,5 +1,4 @@
 import router from "./sitemap-routes";
-import Sitemap, { pathsSplitter } from "react-router-sitemap";
 
 function generateSitemap() {
   try {
