@@ -1,4 +1,5 @@
 import router from "./sitemap-routes";
+import Sitemap from "react-router-sitemap";
 
 function generateSitemap() {
   try {
